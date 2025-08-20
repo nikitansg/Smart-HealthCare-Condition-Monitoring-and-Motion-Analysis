@@ -56,8 +56,11 @@ Maintaining correct posture is essential for spinal health and overall well-bein
 
 4. **Run the system:**
    ```bash
-   python src/pose_detection.py
-
+   python src/body_data.py
+   python src/human.py
+   python src/main.py
+   python src/merged.py
+   
 ## 📊 Results
 
 - Logistic Regression: 99.5% accuracy
