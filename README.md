@@ -38,23 +38,6 @@ Maintaining correct posture is essential for spinal health and overall well-bein
 
 ---
 
-## 📂 Project Structure  
-📁 Smart-Healthcare-Posture-Correction
-│── 📄 README.md
-│── 📄 requirements.txt
-│── 📁 dataset/ # CSV dataset of keypoints
-│── 📁 notebooks/ # Jupyter Notebooks for training & testing
-│── 📁 models/ # Saved ML models
-│── 📁 src/ # Source code for real-time detection
-│ │── data_preprocessing.py
-│ │── pose_detection.py
-│ │── pose_correction.py
-│ │── feedback.py
-│── 📁 results/ # Model evaluation results (confusion matrices, plots)
-
-
----
-
 ## ⚙️ Installation & Setup  
 
 1. **Clone this repository:**  
@@ -63,13 +46,16 @@ Maintaining correct posture is essential for spinal health and overall well-bein
    cd Smart-Healthcare-Posture-Correction
 
 2. **Create and activate conda environment:**
+   ```bash
    conda create -n posture_env python=3.9
    conda activate posture_env
 
 3. **Install dependencies:**
+   ```bash
    pip install -r requirements.txt
 
 4. **Run the system:**
+   ```bash
    python src/pose_detection.py
 
 ## 📊 Results
