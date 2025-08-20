@@ -42,7 +42,7 @@ Maintaining correct posture is essential for spinal health and overall well-bein
 
 1. **Clone this repository:**  
    ```bash
-   git clone https://github.com/yourusername/Smart-Healthcare-Posture-Correction.git
+   git clone https://github.com/nikitansg/Smart-Healthcare-Posture-Correction.git
    cd Smart-Healthcare-Posture-Correction
 
 2. **Create and activate conda environment:**
